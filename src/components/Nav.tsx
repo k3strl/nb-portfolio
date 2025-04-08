@@ -15,7 +15,7 @@ const Nav = () => {
       <Link key={2} to="/Projects" className={navLocation.pathname === '/projects' ? 'nav-item nav-link active' : 'nav-item nav-link'}>
         Projects
       </Link>
-      <Link key={2} to="/Resume" className={navLocation.pathname === '/resume' ? 'nav-item nav-link active' : 'nav-item nav-link'}>
+      <Link key={3} to="/Resume" className={navLocation.pathname === '/resume' ? 'nav-item nav-link active' : 'nav-item nav-link'}>
         Resume
       </Link>
     </nav>
