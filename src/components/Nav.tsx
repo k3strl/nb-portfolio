@@ -9,15 +9,21 @@ const Nav = () => {
   // return nav component
   return (
     <nav className='nav'>
-      <Link key={1} to="/" className={navLocation.pathname === '/' ? 'nav-item nav-link active' : 'nav-item nav-link'}>
-        Home
-      </Link>
-      <Link key={2} to="/Projects" className={navLocation.pathname === '/projects' ? 'nav-item nav-link active' : 'nav-item nav-link'}>
-        Projects
-      </Link>
-      <Link key={3} to="/Resume" className={navLocation.pathname === '/resume' ? 'nav-item nav-link active' : 'nav-item nav-link'}>
+      <ul>
+        <Link key={1} to="/" className={navLocation.pathname === '/' ? 'nav-item nav-link active' : 'nav-item nav-link'}>
+          Home
+        </Link>
+      </ul>
+      <ul>
+        <Link key={2} to="/Projects" className={navLocation.pathname === '/projects' ? 'nav-item nav-link active' : 'nav-item nav-link'}>
+          Projects
+        </Link>
+        </ul>
+      <ul>
+        <Link key={3} to="/Resume" className={navLocation.pathname === '/resume' ? 'nav-item nav-link active' : 'nav-item nav-link'}>
         Resume
-      </Link>
+        </Link>
+      </ul>
     </nav>
   )
 };

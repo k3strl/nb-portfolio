@@ -2,15 +2,15 @@ export default function Footer() {
     return (
         <footer>
             <section>
-                <li>
-                    <a href="###" className="social">Linked In</a>
-                </li>
-                <li>
-                    <a href="###" className="social">Git Hub</a>
-                </li>
-                <li>
-                    <a href="###" className="social">BlueSky</a>
-                </li>
+                <ul>
+                    <a href="https://www.linkedin.com/pulse/its-your-fault-linkedin-sucks-vince-quinn-jhhee" className="social">LinkedIn</a>
+                </ul>
+                <ul>
+                    <a href="https://github.com/k3strl" className="social">GitHub</a>
+                </ul>
+                <ul>
+                    <a href="https://bsky.app/profile/k3strl.bsky.social" className="social">BlueSky</a>
+                </ul>
             </section>
             <section>
                 <p>&copy; 2025 Nic Blaize</p>
