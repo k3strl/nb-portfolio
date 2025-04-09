@@ -29,3 +29,16 @@ body {
 h1, h2, h3, h4, h5, h6, p {
   color: var(--font-grey)
 }
+
+.project-container {
+  width: min(1000px, 100%); /* Responsive width*/
+  margin: 0 auto;
+  columns: 3 300px;
+  column-gap: 1em;
+}
+
+img {
+  display: block;
+  margin-bottom: 1em; /* vertical gap btwn project images*/
+  width: 100%;
+}
