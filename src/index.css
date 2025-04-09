@@ -30,6 +30,17 @@ h1, h2, h3, h4, h5, h6, p {
   color: var(--font-grey)
 }
 
+h1 {
+  font-size: 5em; /* 40px/16=2.5em */
+}
+
+nav-item {
+  font-size: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+
 .project-container {
   width: min(1000px, 100%); /* Responsive width*/
   margin: 0 auto;
@@ -41,4 +52,8 @@ img {
   display: block;
   margin-bottom: 1em; /* vertical gap btwn project images*/
   width: 100%;
+
+}
+.social{
+  font-size: 1em; /* 40px/16=2.5em */
 }

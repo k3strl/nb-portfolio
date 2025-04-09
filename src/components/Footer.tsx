@@ -3,13 +3,13 @@ export default function Footer() {
         <footer>
             <section>
                 <li>
-                    <a href="###">Linked In</a>
+                    <a href="###" className="social">Linked In</a>
                 </li>
                 <li>
-                    <a href="###">Git Hub</a>
+                    <a href="###" className="social">Git Hub</a>
                 </li>
                 <li>
-                    <a href="###">BlueSky</a>
+                    <a href="###" className="social">BlueSky</a>
                 </li>
             </section>
             <section>
