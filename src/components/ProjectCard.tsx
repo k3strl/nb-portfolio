@@ -9,9 +9,9 @@ type ProjectCardProps = {
   };
 
 
-const ProjectCard = ({ title, img, desc, pageLink, gitLink, category }: ProjectCardProps) => {
+const ProjectCard = ({ title, img, desc, pageLink, gitLink }: ProjectCardProps) => {
   return (
-    <div className="project-item" data-category={category}>
+    <div className="project-item">
       <img src={img} alt={title} className="project-img" />
       <div className="project-overlay">
         <h3>{title}</h3>
