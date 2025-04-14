@@ -1,18 +1,25 @@
 // import { Link } from 'react-router-dom';
+import ProjectCard from "../components/ProjectCard";
+import projectsData from "../data/projectsData";
 
-export default function Projects() {
+const projects = projectsData;
+const Projects = () => {
   return (
     <div className="project-container">
-      <img width="300" src="https://picsum.photos/200/500" alt="a random placeholder image"></img>
-      <img width="300" src="https://picsum.photos/200/300" alt="a random placeholder image"></img>
-      <img width="300" src="https://picsum.photos/300" alt="a random placeholder image"></img>
-      <img width="300" src="https://picsum.photos/200/600" alt="a random placeholder image"></img>
-      <img width="300" src="https://picsum.photos/600/300" alt="a random placeholder image"></img>
-      <img width="300" src="https://picsum.photos/800/200" alt="a random placeholder image"></img>
-      <img width="300" src="https://picsum.photos/200/300" alt="a random placeholder image"></img>
-      <img width="300" src="https://picsum.photos/200/300" alt="a random placeholder image"></img>
-      <img width="300" src="https://picsum.photos/300/400" alt="a random placeholder image"></img>
-      <img width="300" src="https://picsum.photos/200/1200" alt="a random placeholder image"></img>
+      <section id="projects" className="projects">
+        <div className="container">
+          <div className="section-title">
+            <h2>My Projects</h2>
+          </div>
+          <div className="projects-container">
+            {projects.map((project, index) => (
+              <ProjectCard key={index} {...project} />
+            ))}
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
+
+export default Projects;
