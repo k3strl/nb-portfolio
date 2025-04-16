@@ -5,19 +5,21 @@ import projectsData from "../data/projectsData";
 const projects = projectsData;
 const Projects = () => {
   return (
-    <div className="project-container">
-      <section id="projects" className="projects">
-        <div className="container">
-          <div className="section-title">
-            <h2>My Projects</h2>
+    <div>
+      <h2>My Projects</h2>
+      <div className="project-container">
+        <section id="projects" className="projects">
+          <div className="container">
+            <div className="section-title">
+            </div>
+            <div className="projects-container">
+              {projects.map((project, index) => (
+                <ProjectCard key={index} {...project} />
+              ))}
+            </div>
           </div>
-          <div className="projects-container">
-            {projects.map((project, index) => (
-              <ProjectCard key={index} {...project} />
-            ))}
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
   );
 }
