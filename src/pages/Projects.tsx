@@ -5,7 +5,7 @@ import projectsData from "../data/projectsData";
 const projects = projectsData;
 const Projects = () => {
   return (
-    <div>
+    <>
       <h2>My Projects</h2>
       <div className="project-container">
         <section id="projects" className="projects">
@@ -20,7 +20,7 @@ const Projects = () => {
           </div>
         </section>
       </div>
-    </div>
+    </>
   );
 }
 

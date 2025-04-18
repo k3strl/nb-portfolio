@@ -7,7 +7,7 @@ const AboutMe = () => {
         <div className="aboutme-container">
             <div className="about-me">
                 <ul>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil facere ipsa ab quas? Numquam, ullam sunt vitae ipsam harum quo blanditiis similique ipsum atque voluptatem suscipit error distinctio totam cum!</p>
+                    <p>I'm Nic! I just earned a certificate in Full Stack Web Development from the University of Minnesota. I'm currently looking for a full-time position in the tech industry.</p>
                 </ul>
             </div>
             {/* <Carousel /> */}
