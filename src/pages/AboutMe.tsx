@@ -4,13 +4,11 @@
 
 const AboutMe = () => {
     return (
-        <div className="aboutme-container">
-            <div className="about-me">
-                <ul>
-                    <p>I'm Nic! I just earned a certificate in Full Stack Web Development from the University of Minnesota. I'm currently looking for a full-time position in the tech industry.</p>
-                </ul>
-            </div>
-            {/* <Carousel /> */}
+        <div className="about-me">
+            <ul>
+                <p>Welcome to my development portfolio!</p>
+                <p>I'm Nic, a full stack developer based in Minneapolis. I earned my full-stack certifcation from the University of Minnesota.</p>
+            </ul>
         </div>
     )
 };
