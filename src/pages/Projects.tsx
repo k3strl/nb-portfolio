@@ -6,7 +6,7 @@ const projects = projectsData;
 const Projects = () => {
   return (
     <>
-      <h2>My Projects</h2>
+      <h2>Projects</h2>
       <div className="project-container">
         <section id="projects" className="projects">
           <div className="container">

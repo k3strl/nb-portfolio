@@ -151,9 +151,77 @@ a {
   transform: scale(1.1);
 }
 
+.project-container {
+  width: min(1000px, 100%); /* Responsive width */
+  margin: 0 auto;
+  columns: 3 300px;
+  column-gap: 1em;
+}
+
+img {
+  display: block;
+  margin-bottom: 1em; /* vertical gap btwn project images */
+  width: 100%;
+}
+
+.footer {
+  background-color: var(--background);
+  color: var(--font-grey);
+  padding: 20px;
+  text-align: center;
+
+}
+
+footer {
+  font-size: 1em;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul {
+  display:inline;
+}
+
+@-webkit-keyframes check {
+  50% {
+    outline-color: #333;
+    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+  }
+  100% {
+    outline-color: #333;
+    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  }
+}
+
+@keyframes check {
+  50% {
+    outline-color: #333;
+    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+  }
+  100% {
+    outline-color: #333;
+    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* TESTIMONIAL CAROUSEL */
-.slider {
+/* .slider {
   height: 100%;
   position: relative;
   overflow: hidden;
@@ -256,53 +324,4 @@ a {
   color: #999;
   margin-bottom: 3rem;
   max-width: 300px;
-}
-
-/* ANCHOR */
-
-.project-container {
-  width: min(1000px, 100%); /* Responsive width */
-  margin: 0 auto;
-  columns: 3 300px;
-  column-gap: 1em;
-}
-
-img {
-  display: block;
-  margin-bottom: 1em; /* vertical gap btwn project images */
-  width: 100%;
-}
-
-footer {
-  font-size: 1em;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-footer ul {
-  display:inline;
-}
-
-@-webkit-keyframes check {
-  50% {
-    outline-color: #333;
-    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
-  }
-  100% {
-    outline-color: #333;
-    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
-  }
-}
-
-@keyframes check {
-  50% {
-    outline-color: #333;
-    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
-  }
-  100% {
-    outline-color: #333;
-    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
-  }
-}
+} */
