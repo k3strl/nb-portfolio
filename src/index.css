@@ -186,12 +186,10 @@ img {
 
 /* RESUME */
 
-.whole-resume {
+.iframe {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60%;
-  height: '100%';
   overflow: 'hidden';
 }
 

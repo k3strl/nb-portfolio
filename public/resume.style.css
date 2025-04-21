@@ -29,6 +29,13 @@
   --main-blocks-title-icon-offset-left: -19pt;
 }
 
+iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: 'hidden';
+}
+
 body{
   width: var(--page-width);
   height: var(--page-height);
