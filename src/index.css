@@ -186,11 +186,8 @@ img {
 
 /* RESUME */
 
-.iframe {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: 'hidden';
+iframe {
+  height: 100%;
 }
 
 /* /RESUME */

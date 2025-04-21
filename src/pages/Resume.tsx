@@ -7,9 +7,10 @@ export default function Resume() {
         src="/resume.html"
         title="Resume"
         style={{
-          width: '100%',
-          height: '100%',
+          width: '60%',
+          height: '60vw',
           border: 'none',
+          backgroundColor: 'white'
         }}
       />
     </div>
