@@ -73,16 +73,13 @@ a {
 
 
 /* ABOUT ME */
-
-.about-me {
+.about-me, .technologies, .testimonials {
   display: flex;
   flex-direction: column;
   width: 60%;
   margin: 0 auto; /* Centers the section horizontally */
   text-align: left; /* Centers the text inside the section */
-
 }
-
 /* /ABOUT ME */
 
 
@@ -94,7 +91,7 @@ a {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
   gap: 30px;
 }
 
@@ -185,21 +182,17 @@ img {
   /* margin-bottom: 1em;  vertical gap btwn project images */
   width: 100%;
 }
-
 /* /PROJECTS */
 
 /* RESUME */
-
 iframe {
   height: 100%;
 }
-
 /* /RESUME */
 
 
 
 /* FOOTER */
-
 .footer {
   background-color: var(--background);
   color: var(--font-grey);
@@ -222,9 +215,7 @@ footer ul {
 .email {
   padding: 2vh;
 }
-
 /* /FOOTER */
-
 
 /* TESTIMONIAL CAROUSEL */
 /* 
