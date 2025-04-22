@@ -19,7 +19,6 @@
 html,
 body {
   height: 100%;
-
 }
 
 a {
@@ -220,6 +219,10 @@ footer {
 
 footer ul {
   display:inline;
+}
+
+.email {
+  padding: 2vh;
 }
 
 /* /FOOTER */
