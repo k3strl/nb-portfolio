@@ -18,7 +18,7 @@ const ProjectCard = ({ title, img, desc, pageLink, gitLink }: ProjectCardProps) 
         <p>{desc}</p>
         <div className="project-links">
           <a href={pageLink}><i className="fa-solid fa-link"></i></a>
-          <a href={gitLink}><i className="fa-solid fa-github"></i></a>
+          <a href={gitLink}><i className="fa-brands fa-github"></i></a>
         </div>
       </div>
     </div>

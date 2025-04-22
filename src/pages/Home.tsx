@@ -1,10 +1,13 @@
-import AboutMe from "./AboutMe";
+import AboutMe from "../components/AboutMe";
+import Technologies from "../components/Technologies";
+import Testimonials from "../components/Testimonials";
 
-// import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <>
       <AboutMe />
+      <Technologies />
+      <Testimonials />
     </>
   );
-}
+};
