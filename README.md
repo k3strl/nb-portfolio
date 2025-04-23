@@ -1,5 +1,3 @@
-Deployed: [here](https://nb-portfolio.onrender.com/)
-
 ## Professional Portfolio
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
@@ -7,6 +5,7 @@ Deployed: [here](https://nb-portfolio.onrender.com/)
 My professional portfolio, built from scratch using React, TypeScript and Vite.
 
 ## Table of Contents
+- [Professional Portfolio](#professional-portfolio)
 - [Description](#description)
 - [Table of Contents](#table-of-contents)
 - [Installation](#installation)
@@ -18,13 +17,17 @@ My professional portfolio, built from scratch using React, TypeScript and Vite.
 - [Questions?](#questions)
 
 ## Installation
-No installation required; simply  go to the deployed application 
+No installation required; simply  go to the deployed application [here](https://nb-portfolio.onrender.com/)!
 
 ## Usage
 Go to the deployed website [here](https://nb-portfolio.onrender.com/). Click on Projects to see some of my best projects. Click on Resume to view my resume (and download a PDF copy, if desired). If  you'd like to hire me, send me an email or find me on on Github, LinkedIn, or BlueSky.
 
 ## Credits
 So many resources!
+- Code for imbedded resume came from https://github.com/mnjul/html-resume. 
+- Some CSS rules are from http://meyerweb.com/eric/tools/css/reset/, some from normalize.css.
+- Some project gallery CSS comes from https://codepen.io/Kumudkode/pen/JojgNwe.
+- 
 
 ## License
 This project is licensed under the ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) [MIT](https://opensource.org/licenses/MIT) license.
