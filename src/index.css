@@ -185,8 +185,13 @@ img {
 /* /PROJECTS */
 
 /* RESUME */
-iframe {
-  height: 100%;
+.resume-container {
+  height: 80%;
+  position: relative;
+}
+
+.download {
+  position: relative;
 }
 /* /RESUME */
 
