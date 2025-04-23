@@ -24,6 +24,8 @@ body {
 a {
   font-weight: 500;
   color: var(--font-grey);
+  text-decoration-color: var(--purple);
+  text-underline-offset: 8px;
 }
 
 a:hover {
@@ -52,9 +54,9 @@ p {
   color: var(--font-grey);
 }
 
-a {
-  text-decoration: none; /* removes underline from all links */
-}
+/* a {
+  text-decoration: none;
+} */
 /* /ROOT */
 
 
@@ -186,12 +188,12 @@ img {
 
 /* RESUME */
 .resume-container {
-  height: 80%;
+  height: 100%;
   position: relative;
 }
 
 .download {
-  position: relative;
+  padding-bottom: 2em;
 }
 /* /RESUME */
 

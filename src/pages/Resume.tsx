@@ -2,17 +2,17 @@ export default function Resume() {
   return (
     <div>
       <div className="download">
-        <a href="resume.nic-blaize.pdf">Download PDF copy</a>
+        <a href="resume.nic-blaize.pdf">Download as PDF</a>
       </div>
       <div className="resume-container">
         <iframe
           src="/resume.html"
           title="Resume"
           style={{
-            width: "60%",
-            height: "60vw",
+            width: "50%",
+            height: "40vw",
             border: "none",
-            backgroundColor: "white",
+            backgroundColor: "#e5e5e5",
           }}
         />
       </div>
