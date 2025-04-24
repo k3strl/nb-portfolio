@@ -17,7 +17,7 @@ const projectsData = [
     title: "LitLink",
     img: "project-imgs/lit-link.png",
     desc: "A backend-only social network API built from scratch using MongoDB & Express.js.",
-    pageLink: "#",
+    pageLink: "https://github.com/k3strl/17.LitLink",
     gitLink: "https://github.com/k3strl/17.LitLink",
   },
   {
@@ -31,14 +31,14 @@ const projectsData = [
     title: "Employee Tracker",
     img: "project-imgs/employee-manager.png",
     desc: "A command-line application to manage a company's employees using Node.js, Inquirer, and PostgreSQL.",
-    pageLink: "",
+    pageLink: "https://github.com/k3strl/10.Employee-Tracker",
     gitLink: "https://github.com/k3strl/10.Employee-Tracker",
   },
   {
     title: "Python Takeout Menu",
     img: "project-imgs/takeout-system.png",
     desc: "This program allows users to place orders with a generic takeout restaraunt, and receive an itemized receipt.",
-    pageLink: "#",
+    pageLink: "https://github.com/k3strl/21.Takeout-Restaurant-Menu",
     gitLink: "https://github.com/k3strl/21.Takeout-Restaurant-Menu",
   }
 ]
