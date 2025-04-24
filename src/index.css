@@ -84,7 +84,22 @@ p {
 }
 /* /ABOUT ME */
 
+/* TECHNOLOGIES */
 
+.technologies {
+
+  flex-wrap: nowrap; /* Prevents wrapping to the next line */
+  justify-content: center; /* Centers the icons horizontally */
+  gap: 10px; /* Adds spacing between icons */
+  overflow-x: auto; /* Allows horizontal scrolling if icons overflow */
+}
+
+.skills-icon {
+  display: inline;
+  padding: 5px;
+}
+
+/* /TECHNOLOGIES */
 
 /* PROEJCTS */
 .projects-container {
