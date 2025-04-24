@@ -27,7 +27,7 @@ So many resources!
 - Code for imbedded resume came from https://github.com/mnjul/html-resume. 
 - Some CSS rules are from http://meyerweb.com/eric/tools/css/reset/, some from normalize.css.
 - Some project gallery CSS comes from https://codepen.io/Kumudkode/pen/JojgNwe.
-- 
+- Skill icons from https://skillicons.dev/.
 
 ## License
 This project is licensed under the ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) [MIT](https://opensource.org/licenses/MIT) license.
